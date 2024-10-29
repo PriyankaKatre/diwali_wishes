@@ -38,13 +38,17 @@ body {
 }
 
 .pragraph-and-audio p {
-  font-size: 46px;
+  font-size: 42px;
   max-width: 550px;
   font-family: "Style Script", cursive;
 }
 
 audio::-webkit-media-controls-panel {
   background-color: #fbd8a4;
+}
+
+#receiver {
+    font-size: 30px;
 }
 
 .audio-container {
@@ -94,7 +98,7 @@ audio::-webkit-media-controls-panel {
 }
 
 .lakshmi-ganesha-section h2 {
-  font-size: 54px;
+  font-size: 42px;
   font-weight: 400;
   text-align: center;
   max-width: 772px;;
@@ -147,7 +151,8 @@ h2 {
     max-width: 280px;
   }
 
-  .lakshmi-ganesha-section h2 {
+  .lakshmi-ganesha-section h2,
+   .pragraph-and-audio p {
     font-size: 32px;
   }
 }
